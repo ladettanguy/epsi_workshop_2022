@@ -23,7 +23,7 @@ Pour le lancer:
 
 
 ## Dossier "workshop_logchecker":
-Contient le code de l'afficheur de log, se connectant au socker ouvert sur {IP}:7777
+Contient le code de l'afficheur de log, se connectant au socker ouvert sur 127.0.0.1:7777
 
 Pour le lancer:
 ```sh
