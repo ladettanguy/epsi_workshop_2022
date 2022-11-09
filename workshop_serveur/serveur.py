@@ -3,6 +3,7 @@ import socket
 import sys
 
 from thread_client import Client
+from logger.log import Log
 
 ServerSocket = socket.socket()
 port = int(sys.argv[1])
@@ -14,7 +15,8 @@ except socket.error as e:
 
 def handler(_, __):
     ServerSocket.close()
-    exit(0)
+    Log.sock.close() if Log.sock else exit(1)
+    exit(1)
 
 
 signal.signal(signal.SIGINT, handler)
