@@ -1,5 +1,7 @@
 # EPSI WorkShop 2022
 
+# PROJET GAGNANT
+
 ## Dossier "workshop_serveur"
 Contient le code du serveur de trading.
 
